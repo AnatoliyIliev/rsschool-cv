@@ -39,3 +39,42 @@ learner, responsible, organized and attentive to detail, ready for tasks.
 - Python(basic knowledge)
 - Figma
 - VSCode, PyCharm
+
+## Code examples
+
+Make a program that filters a list of strings and returns a list with only your
+friends name in it.
+
+If a name has exactly 4 letters in it, you can be sure that it has to be a
+friend of yours! Otherwise, you can be sure he's not...
+
+```
+function friend(friends) {
+  let allFriends = [];
+  const myFriends = friends.map(friend => {
+    if (friend.length === 4) {
+      allFriends.push(friend);
+      return allFriends;
+    }
+  });
+  return allFriends;
+}
+
+console.log(friend(['Ryan', 'Kieran', 'Mark']));
+// ['Ryan', 'Mark']
+
+```
+
+## Education
+
+- [Python Programming](https://stepik.org/cert/361215)
+- [Web Development for Beginners: HTML and CSS](https://stepik.org/cert/837790)
+- [JavaScript for beginners](https://stepik.org/cert/837790)
+
+## Experience
+
+## Languages
+
+- Ukrainian -native
+- Russian - native
+- English -pre-intermediate
